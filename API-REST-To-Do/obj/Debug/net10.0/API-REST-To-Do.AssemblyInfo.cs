@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-REST-To-Do")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bb019e67605cb2b3534b355ab52dcd2806c7e18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+372f8c80f6b31bea1f167b846915abdebaea8068")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-REST-To-Do")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-REST-To-Do")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
