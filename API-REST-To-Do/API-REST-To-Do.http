@@ -1,6 +1,31 @@
 @API_REST_To_Do_HostAddress = http://localhost:5113
 
-GET {{API_REST_To_Do_HostAddress}}/weatherforecast/
+GET {{API_REST_To_Do_HostAddress}}/api/tarea/
 Accept: application/json
 
 ###
+POST {{API_REST_To_Do_HostAddress}}/api/tarea/
+Content-Type: application/json
+{
+  "nombre": "Comprar jugo",
+  "descripcion": "Comprar jugo en el supermercado",
+  "completada": true
+}
+
+###
+GET {{API_REST_To_Do_HostAddress}}/api/tarea/3
+Accept: aplication/json
+
+###
+DELETE {{API_REST_To_Do_HostAddress}}/api/tarea/3
+Accept: application/json
+
+###
+PUT {{API_REST_To_Do_HostAddress}}/api/tarea/4
+Content-Type: application/json
+{
+  "id": 4,
+  "nombre": "Comprar pan",
+  "descripcion": "Comprar pan en la panadería",
+  "isCompleted": true
+}

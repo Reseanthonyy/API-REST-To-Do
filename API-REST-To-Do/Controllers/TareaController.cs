@@ -24,7 +24,7 @@ namespace API_REST_To_Do.Controllers
         }
 
         //GET: api/tareas/5
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Tarea>> GetById(int id)
         {
             var tarea = await _context.Tareas.FindAsync(id);
